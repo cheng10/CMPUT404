@@ -2,13 +2,14 @@
 
 #Copyright (c) Cheng Chen
 
-import socket, os, sys
+import socket, os, sys, select
 
 #connect to IP and TCP
 serverSocket=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+serverSocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 #0.0.0.0 listens on all the ip address
-serverSocket.bind(("0.0.0.0", 12345))
+serverSocket.bind(("0.0.0.0", 12344))
 
 serverSocket.listen(5)
 
@@ -48,6 +49,11 @@ while True:
 					raise
 			if (part):
 				incomingSocket.sendall(part)
+			select.select(
+					[incomingSocket, outgoingSocket],
+					[],
+					[incomingSocket, outgoingSocket],
+					1)
 			#else:
 			#	break
 			
