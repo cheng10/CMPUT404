@@ -24,6 +24,7 @@ Question 5:
 What do you see when you go to /polls/38/ in your browser? What about /polls/38/results and /polls/38/vote? What happens when you don’t put a number, and instead use a string? How would you modify the urls.py file to allow arbitrary alphabetic characters?
 
 /polls/38 shows "You're looing at question 38." /polls/38/results gives the "You're looking at the result of the question 38." /polls/38/vote shows similar line. When a put a string, it shows 404 page not found. Edit the regular to match the arbitrary alphabetic characters will do the jogb.
+To allow  alphabetic character, we can change the regular expression part to  r'^(?P<question_id>[0-9a-zA-Z]+)/$'
 
 Question 6:
 Why is it a bad idea to hardcode urls into the templates?
