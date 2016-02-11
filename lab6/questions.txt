@@ -1,0 +1,14 @@
+1:
+WSGI: Web server Gateway Interface, it is a specification for simple and universal interface between web servers and web applications or frameworks for the python programming language.
+
+2:
+PaaS: Platform as a service, it is a category of cloud computing services that provides a platform allowing customers to develop, run and manage web applications without the complexity of building and maintaining the infrastructure typically associated with developing and launching an app.
+
+3:
+Benefits: quick testing and deployment, dynamic allocation, increased focus on business and boost to internal entrepreneurship.
+Drawbacks: data security not always ensured, limited flexibility, limited customer captivity, problems of integration with in-house systems and applications
+
+4:
+Different PaaS vendors: Engine Yard, Red Hat OpenShift, Google App Engine, Heroku, AppFog etc.
+Our choice: OpenShift
+

@@ -1,0 +1,13 @@
+Q1:
+HTML: Hyper Text Markup Language
+CSS: Cascading Style Sheets
+
+Q2:
+We can use css selector. For example, p{} is used to style HTML paragraph elements. p.hometown{} is used to style HTML paragraph elements with a hometown class. And #id{} is used to style element with certain id. 
+
+Q3:
+Using web UI frameworks like bootstrap saved a lot of work when it comes to styling the webpages. It is easy, convinent and beautiful.
+
+Q4:
+Responsive Web Design makes web page look good on all devices(desktops, tablets and phones.)
+Responsive Web Design is about using CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.
