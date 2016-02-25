@@ -1,0 +1,41 @@
+QUESTIONS
+Question 1:
+What does REST stand for? What does it mean?
+
+REST stands for Representational State Transfer.
+RESTful applications use HTTP requests to post data (create and/or update),
+read data (e.g., make queries), and delete data.
+Thus, REST uses HTTP for all four CRUD (Create/Read/Update/Delete) operations.
+
+Question 2:
+What does CRUD stand for?
+
+CRUD (Create/Read/Update/Delete)
+
+Question 3:
+In general, what do HTTP 1XX status codes mean? HTTP 2XX? HTTP 3XX? HTTP 4XX? HTTP
+5XX?
+
+1xx information, 2xx success, 3xx redirection, 4xx client error, 5xx server error
+
+Question 4:
+What are the benefits of using yeoman generators to scaffold our application? What are the
+cons?
+
+Benefits: It allows developers to concentrate on building the functionality of an application,
+rather than working to build its infrastructure.
+Cons: It abstracts some crucial steps in the setup. Meanwhile it is import for developers to know the details.
+
+Question 5:
+What is a XSS attack? What does CORS stand for and what does it mean?
+
+Cross-Site Scripting (XSS) attacks are a type of injection,
+in which malicious scripts are injected into otherwise benign and trusted web sites.
+Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources (e.g. fonts)
+on a web page to be requested from another domain outside the domain from which the resource originated.
+
+Question 6:
+Why should client side javascript and css be minified before deployment?
+
+By minimizing client side javascript and css, we can eliminating unnecessary resource downloads.
+It can significantly reduce the size of delivered. Hence, improve page load loading significantly.
