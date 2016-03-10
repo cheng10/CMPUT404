@@ -1,0 +1,21 @@
+QUESTIONS
+Question 1:
+What is a websocket?
+WebSocket is a protocol providing full-duplex communication channels over a single TCP connection.
+
+Question 2:
+Why should websockets be used instead of client sided long-polling?
+In websockets, server and client can exchange data both directions at any time. It is very efficient if application requires frequent data exchange in both ways.
+In long-polling, Cclient have to reconnect periodically after connection is closed due to timeouts or data eof. 
+
+Question 3:
+What is phaser (in the context of this lab)?
+Phaser is an HTML5 game framework which aims to help developers make powerful, cross-browser HTML5 games really quickly and, unlike some others, has solely been built to work with the mobile browsers. The only browser requirement is the support of the canvas tag. It also borrows a lot from Flixel.
+
+Question 4:
+What is Jade (in the context of this lab)?
+Jade is a terse language for writing HTML templates.
+
+Question 5:
+What is Express (in the context of this lab)?
+Express.js is a Node.js web application server framework, designed for building single-page, multi-page, and hybrid web applications. It is the de facto standard server framework for node.js

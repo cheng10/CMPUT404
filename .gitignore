@@ -17,6 +17,7 @@ Thumbs.db
 *.out
 
 # Application specific files
+.idea
 venv
 node_modules
 .sass-cache
