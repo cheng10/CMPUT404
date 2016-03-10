@@ -1,0 +1,8 @@
+Question 1:
+What is HTTP Basic Authentication?
+Question 2:
+What is HTTP Token Authentication?
+Question 3:
+What is HTTP Session Authentication?
+Question 4:
+What is OAuth and OAuth2?
